@@ -20,9 +20,4 @@ public class FizzBuzzWhizz {
         }
         return result.toString();
     }
-
-    public static void main(String[] args) {
-        FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
-        fizzBuzzWhizz.play(1);
-    }
 }
