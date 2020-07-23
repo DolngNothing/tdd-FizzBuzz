@@ -11,6 +11,10 @@ public class FizzBuzzWhizz {
             result.append("buzz");
         }
 
+        if(number % 7==0){
+            result.append("whizz");
+        }
+
         if (result.length() == 0) {
             result.append(number);
         }
