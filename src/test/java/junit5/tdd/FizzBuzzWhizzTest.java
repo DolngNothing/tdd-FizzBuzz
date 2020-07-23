@@ -37,4 +37,6 @@ public class FizzBuzzWhizzTest {
         //should
         assertEquals("buzz", actual);
     }
+
+
 }
