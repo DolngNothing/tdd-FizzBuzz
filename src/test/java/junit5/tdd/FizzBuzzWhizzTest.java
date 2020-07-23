@@ -12,8 +12,9 @@ public class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
         //when
         String actual = fizzBuzzWhizz.play(number);
-
         //should
         assertEquals("1", actual);
     }
+
+
 }
